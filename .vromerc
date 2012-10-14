@@ -1,0 +1,54 @@
+" quicker movemnt
+map  j 5j
+map  k 5k
+map  J <C-f>
+map  K <C-b>
+map gv G
+
+" alternative movement
+map a 5j
+map s 5k
+
+" tab motion made simple
+map w gt
+map q gT
+map <F9> <C-^>
+map e <C-^>
+map E g$
+
+" open link in new tab
+map v F
+
+" search for selection/clipboard content in net tab
+map p P
+
+" forward backward page
+map z H
+map x L
+
+" need to redefine zoom
+map ci zi
+map co zo
+map cc zz
+map cC zZ
+
+" solve Mac conflict
+unmap <M-f>
+
+" other hintkeys
+" set hintkeys=asdfghjkl;
+" set hintkeys=1234567890
+set hintkeys=ASDFGHJKL:
+" set hintkeys=ASDFG
+
+" blacklist
+" mail.google.com
+set disablesites=reader.google.com, google.com/reader, class.coursera.org
+
+" search engines
+" set searchengines={"gl":"http://www.google.com/search?q={{keyword}}"}
+" set searchengines+={";":"http://www.google.com/search?q={{keyword}}"}
+" set searchengines+={"w":"http://en.wikipedia.org/wiki/{{keyword}}"}
+
+" Change default search engine, default is google.
+" set defaultsearch=gl
