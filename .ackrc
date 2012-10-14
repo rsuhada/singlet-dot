@@ -1,0 +1,19 @@
+# add new
+# --type-set=eiffel=.e,.eiffel
+# update existing
+# --type-add=elisp=.org
+
+# Always color, even if piping to a another program
+--color
+
+# Use "less -r" as my pager
+# --pager=less -r
+
+# add to existing
+--type-add=elisp=.org
+--type-set=add=.txt,.readme,.notes,.log
+
+# add new
+--type-set=idl=.pro
+--type-set=data=.dat,.tab,.txt,.catalog
+--type-set=r=.r
