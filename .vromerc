@@ -13,8 +13,8 @@ map s 5k
 map w gt
 map q gT
 map <F9> <C-^>
-map e <C-^>
-map E g$
+" map e <C-^>
+" map E g$
 
 " open link in new tab
 map v F
@@ -43,7 +43,7 @@ set hintkeys=ASDFGHJKL:
 
 " blacklist
 " mail.google.com
-set disablesites=reader.google.com, google.com/reader, class.coursera.org
+set disablesites=reader.google.com, google.com/reader, class.coursera.org, mail.google.com
 
 " search engines
 " set searchengines={"gl":"http://www.google.com/search?q={{keyword}}"}
@@ -52,3 +52,7 @@ set disablesites=reader.google.com, google.com/reader, class.coursera.org
 
 " Change default search engine, default is google.
 " set defaultsearch=gl
+
+" Easier on/off vrome
+map - <C-z>
+map = <C-z>

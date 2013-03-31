@@ -24,8 +24,6 @@ bind 0:ctrl;alt;cmd nudge +2% +0
 bind 8:ctrl;alt;cmd nudge +0   -2%
 bind 9:ctrl;alt;cmd nudge +0   +2%
 
-
-
 ######################################################################
 # layouts
 
@@ -33,6 +31,9 @@ bind 1:ctrl;cmd;alt corner top-left resize:screenSizeX/2;screenSizeY/2
 bind 2:ctrl;cmd;alt corner top-right resize:screenSizeX/2;screenSizeY/2
 bind 3:ctrl;cmd;alt corner bottom-left resize:screenSizeX/2;screenSizeY/2
 bind 4:ctrl;cmd;alt corner bottom-right resize:screenSizeX/2;screenSizeY/2
+
+# mini
+bind m:ctrl;cmd;alt corner top-right resize:screenSizeX/4;screenSizeY/5
 
 ######################################################################
 
@@ -83,6 +84,10 @@ bind 4:ctrl;cmd;alt corner bottom-right resize:screenSizeX/2;screenSizeY/2
 # # Window Hints
 # bind esc:cmd hint
 
+# bind e:cmd hide 'current'
+# bind `:cmd hide 'Google Chrome, VLC'
+
+bind esc:ctrl hide 'Google Chrome'
 
 ######################################################################
 ######################################################################
