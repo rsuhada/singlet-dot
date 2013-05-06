@@ -13,16 +13,16 @@ bind down:ctrl;cmd;alt   push down  bar-resize:screenSizeY/2
 bind f:ctrl;cmd;alt  push right bar-resize:screenSizeX
 
 # resize
-bind j:ctrl;alt;cmd resize -10% +0
-bind l:ctrl;alt;cmd resize +10% +0
-bind i:ctrl;alt;cmd resize +0   -10%
-bind k:ctrl;alt;cmd resize +0   +10%
+bind j:ctrl;alt;cmd resize -2% +0
+bind l:ctrl;alt;cmd resize +2% +0
+bind i:ctrl;alt;cmd resize +0   -2%
+bind k:ctrl;alt;cmd resize +0   +2%
 
 # move
-bind 7:ctrl;alt;cmd nudge -2% +0
-bind 0:ctrl;alt;cmd nudge +2% +0
-bind 8:ctrl;alt;cmd nudge +0   -2%
-bind 9:ctrl;alt;cmd nudge +0   +2%
+bind 7:ctrl;alt;cmd nudge -1% +0
+bind 0:ctrl;alt;cmd nudge +1% +0
+bind 8:ctrl;alt;cmd nudge +0   -1%
+bind 9:ctrl;alt;cmd nudge +0   +1%
 
 ######################################################################
 # layouts
