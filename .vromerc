@@ -1,3 +1,5 @@
+" https://github.com/rsuhada/singlet-dot/blob/master/.vromerc
+
 " ====================================================================
 "
 " basic settings
@@ -37,7 +39,7 @@ map = <C-z>
 "
 " ====================================================================
 
-set disablesites=reader.google.com, google.com/reader, class.coursera.org, mail.google.com, http://www.feedly.com,http://cloud.feedly.com/
+set disablesites=reader.google.com, google.com/reader, class.coursera.org, mail.google.com, http://www.feedly.com, http://cloud.feedly.com/, http://cloud.feedly.com/#latest
 
 
 " ====================================================================
