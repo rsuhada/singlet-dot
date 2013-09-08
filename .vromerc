@@ -35,11 +35,11 @@ map = <C-z>
 
 " ====================================================================
 "
-" blacklist
+" whitelist
 "
 " ====================================================================
 
-set disablesites=reader.google.com, google.com/reader, class.coursera.org, mail.google.com, http://www.feedly.com, http://cloud.feedly.com/, http://cloud.feedly.com/\#latest, http://www.eyercize.com/practice/bm_read/, www.typingweb.com
+set disablesites=reader.google.com, google.com/reader, class.coursera.org, mail.google.com, www.feedly.com, cloud.feedly.com, www.eyercize.com/practice/bm_read/, www.typingweb.com, 10fastfingers.com
 
 
 " ====================================================================
