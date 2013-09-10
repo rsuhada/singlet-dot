@@ -19,42 +19,14 @@ map v F
 " search for selection/clipboard content in net tab
 map p P
 
-" solve Mac conflict
-unmap <M-f>
-
 " other hintkeys
-set hintkeys=1234567890
-" set hintkeys=asdfghjkl;
+" set hintkeys=1234567890
 " set hintkeys=ASDFGHJKL:
-" set hintkeys=ASDFG
+set hintkeys=ASDFG
 
 " Easier on/off vrome
 map - <C-z>
 map = <C-z>
-
-
-" ====================================================================
-"
-" whitelist
-"
-" ====================================================================
-
-set disablesites=reader.google.com, google.com/reader, class.coursera.org, mail.google.com, www.feedly.com, cloud.feedly.com, www.eyercize.com/practice/bm_read/, www.typingweb.com, 10fastfingers.com
-
-
-" ====================================================================
-"
-" search engines
-"
-" ====================================================================
-
-" set searchengines={"gl":"http://www.google.com/search?q={{keyword}}"}
-" set searchengines+={";":"http://www.google.com/search?q={{keyword}}"}
-" set searchengines+={"w":"http://en.wikipedia.org/wiki/{{keyword}}"}
-
-" Change default search engine, default is google.
-" set defaultsearch=gl
-
 
 " ====================================================================
 "
@@ -80,4 +52,26 @@ map co zo
 map cc zz
 map cC zZ
 
-map <F2> gom
+" map <F2> gom
+
+" ====================================================================
+"
+" whitelist
+"
+" ====================================================================
+
+set disablesites=class.coursera.org, mail.google.com, www.eyercize.com/practice/bm_read/, www.typingweb.com, 10fastfingers.com, cloud.feedly.com
+
+
+" ====================================================================
+"
+" search engines
+"
+" ====================================================================
+
+" set searchengines={"gl":"http://www.google.com/search?q={{keyword}}"}
+" set searchengines+={";":"http://www.google.com/search?q={{keyword}}"}
+" set searchengines+={"w":"http://en.wikipedia.org/wiki/{{keyword}}"}
+
+" Change default search engine, default is google.
+" set defaultsearch=gl
