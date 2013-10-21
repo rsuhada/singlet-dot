@@ -22,11 +22,14 @@ map p P
 " other hintkeys
 " set hintkeys=1234567890
 " set hintkeys=ASDFGHJKL:
-set hintkeys=ASDFG
+" set hintkeys=ASDFG
 
 " Easier on/off vrome
 map - <C-z>
 map = <C-z>
+
+" solve Mac conflict
+unmap <M-f>
 
 " ====================================================================
 "
@@ -60,7 +63,7 @@ map cC zZ
 "
 " ====================================================================
 
-set disablesites=class.coursera.org, mail.google.com, www.eyercize.com/practice/bm_read/, www.typingweb.com, 10fastfingers.com, cloud.feedly.com
+set disablesites=class.coursera.org, mail.google.com, www.eyercize.com/practice/bm_read/, www.typingweb.com, 10fastfingers.com, cloud.feedly.com, www.kongregate.com, www.sense-lang.org/trial/typing/
 
 
 " ====================================================================
