@@ -7,14 +7,17 @@
 " ====================================================================
 
 " quicker movement
-map  j 5j
-map  k 5k
-map  J <C-f>
-map  K <C-b>
-map gv G
+map  n 5j
+map  e 5k
+map  N <C-f>
+map  E <C-b>
+map dv G
 
 " open link in new tab
 map v F
+
+" open link in this tab
+map t f
 
 " search for selection/clipboard content in net tab
 map p P
@@ -38,7 +41,10 @@ unmap <M-f>
 " ====================================================================
 
 map a 5j
-map s 5k
+map r 5k
+
+" reload
+map ; r
 
 " forward backward page
 map z H
@@ -48,6 +54,7 @@ map x L
 map w gt
 map q gT
 map <F9> <C-^>
+map f <C-^>
 
 " need to redefine zoom
 map ci zi
