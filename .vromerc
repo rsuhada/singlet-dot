@@ -17,7 +17,12 @@ map dv G
 map v F
 
 " open link in this tab
-map t f
+map d f
+
+" the go- prefix
+map t g
+map tt gg
+map tv gv
 
 " search for selection/clipboard content in net tab
 map p P
